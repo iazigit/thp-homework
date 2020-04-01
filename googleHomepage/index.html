@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!--meta name="viewport" content="width=device-width; height=device-height;" /-->
+        <title>Google Home Page</title>
+        <style type="text/css" media="screen">
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #eee;
+                height: 100%;
+
+            }
+            header {
+                width:100%;
+                height: 10%:
+            }   
+            header ul  {
+                list-style:none;
+                display: flex;
+                justify-content: flex-end; 
+                margin: 0;
+            }   
+            #main {
+                height: 80%;
+                display: flex;
+                flex-direction: column;           
+                justify-content: center;
+                align-items: center;
+            }
+            #search {
+                width:50%
+            }
+            img, button, input {
+                margin: 2em;
+            }
+            form input {
+                width:100%;
+                height: 3em;
+                border-radius: 3em;                
+                padding-left: 15px;
+            }
+            #buttons {
+                display: flex;
+                justify-content: center;
+            }
+            #buttons button {
+                margin: 5px;
+                 }
+            footer {
+                width:100%;
+                height: 10%;
+                margin: 0;
+            }
+
+            footer ul  {
+                list-style:none;
+                display: flex;
+                padding: 5px;
+            }
+            li {
+                padding: 0px 10px 0 0;
+            }
+            * {
+              border: 0px solid red;
+            }
+            html, body {
+                height: 100%
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul id="navlist">
+                <li>Gmail</li>
+                <li>Image</li>
+                <li>Connexion</li>
+            </ul>
+        </header>
+        <section id="main">
+            <div id="logo"> 
+               <img src="logo.png" alt=""/>
+            </div> 
+            <div id="search">
+                <form action="#" method="get" accept-charset="utf-8">        
+                    <input type="text" name="searchInput" id="searchInput" value="" placeholder="Enter text to search"/>
+                    <div id="buttons" class="name">
+                      <button id="searchButton" type="submit">Recherche</button> 
+                      <button id="feelingLucky" type="submit">J'ai de la chance</button>
+                  </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <li>Pub</li>
+                <li>Entreprise</li>
+                <li>A propos</li>
+            </ul>
+        </footer>
+    </body>
+</html>
