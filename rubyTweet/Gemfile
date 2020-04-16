@@ -1,0 +1,6 @@
+require 'dotenv'
+require 'twitter'
+require 'rspec'
+require 'pry'
+require 'rubocop'
+require 'nokogiri'
